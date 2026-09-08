@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+
+# The local SQLite database contains real personal BMI records
+# (name, weight, height, health category) entered during testing/use.
+# It must never be committed to a public repository.
+*.db
